@@ -2,15 +2,15 @@ from __future__ import unicode_literals
 from frappe import _
 
 app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_title = "IHMCS"
+app_publisher = "IHM Central Services."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@erpnext.com"
-app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+app_email = "info@ihmafrica.org"
+app_license = ""
+source_link = "#"
+app_logo_url = "#"
 
 
 develop_version = '13.x.x-develop'
