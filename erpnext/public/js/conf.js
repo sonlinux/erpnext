@@ -24,7 +24,3 @@ $.extend(frappe.breadcrumbs.module_map, {
 	// 'Shopping Cart': 'Website',
 	// 'Contacts': 'CRM'
 });
-
-$(function() {
-	$('.dropdown-help').remove();  //. hide(); or .remove();
-});
