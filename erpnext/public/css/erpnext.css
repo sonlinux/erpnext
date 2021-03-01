@@ -406,3 +406,8 @@ body[data-route="pos"] .collapse-btn {
 .exercise-col {
 	padding: 10px;
 }
+
+
+.dropdown-help {
+  display: none !important;
+}
