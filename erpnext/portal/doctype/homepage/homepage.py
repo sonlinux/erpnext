@@ -10,7 +10,7 @@ from frappe.website.utils import delete_page_cache
 class Homepage(Document):
 	def validate(self):
 		if not self.description:
-			self.description = frappe._("This is an example website auto-generated from ERPNext")
+			self.description = frappe._("Welcome to the Helpdesk Platform - IHM Africa")
 		delete_page_cache('home')
 
 	def setup_items(self):
@@ -23,4 +23,3 @@ class Homepage(Document):
 				doc.save()
 			self.append('products', dict(item_code=d.name,
 				item_name=d.item_name, description=d.description, image=d.image))
-
